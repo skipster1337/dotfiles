@@ -9,6 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# Modified by skip for arc-dark theme
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
