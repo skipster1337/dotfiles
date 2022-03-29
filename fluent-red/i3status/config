@@ -26,8 +26,8 @@ order += "disk /"
 #order += "load"
 order += "memory"
 order += "cpu_usage"
-order += "cpu_temperature 0"
-order += "cpu_temperature 1"
+#order += "cpu_temperature 0"
+#order += "cpu_temperature 1"
 order += "tztime local"
 
 wireless _first_ {
@@ -58,19 +58,19 @@ cpu_usage {
 	max_threshold = 90
 }
 
-cpu_temperature 0 {
-	format = "%degrees °C"
-	max_threshold = 70
-	format_above_threshold = "TEMP > %degrees °C"
-	path = "/sys/class/hwmon/hwmon3/temp2_input"
-}
+#cpu_temperature 0 {
+#	format = "%degrees °C"
+#	max_threshold = 70
+#	format_above_threshold = "TEMP > %degrees °C"
+#	path = "/sys/class/hwmon/hwmon3/temp2_input"
+#}
 
-cpu_temperature 1 {
-	format = "%degrees °C"
-	max_threshold = 70
-	format_above_threshold = "TEMP > %degrees °C"
-	path = "/sys/class/hwmon/hwmon3/temp3_input"
-}
+# cpu_temperature 1 {
+# 	format = "%degrees °C"
+# 	max_threshold = 70
+# 	format_above_threshold = "TEMP > %degrees °C"
+# 	path = "/sys/class/hwmon/hwmon3/temp3_input"
+#}
 
 memory {
         format = "%used / %total"

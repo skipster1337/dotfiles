@@ -301,3 +301,4 @@ exec --no-startup-id /home/skip/bin/nosleep.sh
 
 # fix screen tearing on nvidia cards
 # exec --no-startup-id nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
+
