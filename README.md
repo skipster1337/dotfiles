@@ -4,12 +4,12 @@ Here you will find configs for i3 (and i3bar and i3status), openbox, tint2, conk
 
 # Structure
 This repo contains configs of various stages of completion: the first batch is made for Arc-Dark, the second is for Fluent-Grey, and the third and current one is for Fluent-Red. I don't work as much on my older configs, solely because I don't use them.  
-I also have configs for Debian to replicate the Openbox environment of Crunchbang, made to work with Bunsen-Faenza icons and Bunsen-He theme.  
-On Openbox I use the [Openbox Applications Menu](https://github.com/Lestibournes/Openbox-Applicatons-Menu) for my Openbox pipe menu because it's easy to install and configure.
+I also have configs for Debian to replicate the Openbox environment of Crunchbang, made to work with Bunsen-Faenza icons and the Bunsen-He theme.  
+On Openbox I use the [Openbox Applications Menu](https://github.com/Lestibournes/Openbox-Applicatons-Menu) for my pipe menu because it's easy to install and configure.
 
 # Fonts  
 Here are all the main fonts used in these configs:  
-- Cantarell is used for the main part of the UI in my Fluent rice, MesloLGS NF is used for the terminal and ZSH, Noto Sans is used for i3bar.
+- In my Fluent rice I use Cantarell for the UI,  MesloLGS NF for the terminal and ZSH, Open Sans i3bar and FontAwesome 6 for icons in i3bar (optional, uncomment lines in config and i3status to enable).
 - For my Debian rice I use FreeSans for the UI, Lato Black for the titlebars, and Noto Mono for the terminal and monospace font.
 
 # Credits
