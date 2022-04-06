@@ -4,7 +4,9 @@ Here you will find configs for i3 (and i3bar and i3status), openbox, tint2, conk
 You might need the Cantarell, FreeSans, Noto Mono and MesloLGS NF fonts for this to work properly.
 
 # Structure
-This repo contains configs of various stages of completion: the first batch is made for Arc-Dark, the second is for Fluent-Grey, and the third and current one is for Fluent-Red. I don't work as much on my older configs, solely because I don't use them. I also have configs for Debian to replicate the Openbox environment of Crunchbang, made to work with Bunsen-Faenza icons and Bunsen-He theme.
+This repo contains configs of various stages of completion: the first batch is made for Arc-Dark, the second is for Fluent-Grey, and the third and current one is for Fluent-Red. I don't work as much on my older configs, solely because I don't use them.  
+I also have configs for Debian to replicate the Openbox environment of Crunchbang, made to work with Bunsen-Faenza icons and Bunsen-He theme.  
+On Openbox I use the [Openbox Applications Menu](https://github.com/Lestibournes/Openbox-Applicatons-Menu) for my Openbox pipe menu because it's easy to install and configure.
 
 # Credits
 - Conky configs are modified from [BunsenLabs](https://www.bunsenlabs.org/)
