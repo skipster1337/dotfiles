@@ -1,0 +1,35 @@
+<separator />
+
+<item label="Lock Screen">
+    <action name="Execute">
+        <execute>
+            dm-tool lock
+        </execute>
+    </action>
+</item>
+
+<item label="Log Out">
+	<action name="Exit" />
+</item>
+
+<item label="Reboot">
+    <action name="Execute">
+        <prompt>
+            Are you sure you want to reboot?
+        </prompt>
+        <execute>
+            systemctl restart
+        </execute>
+    </action>
+</item>
+
+<item label="Shut Down">
+    <action name="Execute">
+        <prompt>
+            Are you sure you want to shut down?
+        </prompt>
+        <execute>
+            systemctl poweroff
+        </execute>
+    </action>
+</item>

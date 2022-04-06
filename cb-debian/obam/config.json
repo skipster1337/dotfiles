@@ -1,0 +1,59 @@
+{
+    "sources": {
+        "snap": "/snap",
+        "flatpak": "/var/lib/flatpak",
+        "launchers": ["/usr/share/applications", "~/.local/share/applications"]
+    },
+    "environments": [],
+    "sorting": "ascending",
+    "terminal": "x-terminal-emulator -e",
+
+    "menus": {
+        "Internet": {
+            "icon": "applications-internet",
+            "categories": ["Network"]
+        },
+        "Education": {
+        	"icon": "applications-education",
+        	"categories": ["Education"],
+        	"exclude": ["Network", "Games", "Graphics", "AudioVideo", "Audio", "Video", "Development", "Office", "System", "Settings", "Utility"]
+        },
+        "Science": {
+        	"icon": "applications-science",
+        	"categories": ["Science"],
+        	"exclude": ["Network", "Games", "Graphics", "AudioVideo", "Audio", "Video", "Development", "Office", "System", "Settings", "Utility"]
+        },
+        "Games": {
+            "icon": "applications-games",
+            "categories": ["Game"]
+        },
+        "Graphics": {
+            "icon": "applications-graphics",
+            "categories": ["Graphics"]
+        },
+        "Multimedia": {
+            "icon": "applications-multimedia",
+            "categories": ["AudioVideo", "Audio", "Video"]
+        },
+        "Development": {
+            "icon": "applications-development",
+            "categories": ["Development"]
+        },
+        "Office": {
+            "icon": "applications-office",
+            "categories": ["Office"]
+        },
+        "System": {
+            "icon": "applications-system",
+            "categories": ["System"]
+        },
+        "Settings": {
+            "icon": "preferences-system",
+            "categories": ["Settings"]
+        },
+        "Utilities": {
+            "icon": "applications-accessories",
+            "categories": ["Utility"]
+        }
+    }
+}

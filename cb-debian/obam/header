@@ -1,0 +1,43 @@
+<item label="Terminal">
+    <action name="Execute">
+        <execute>
+            terminator
+        </execute>
+    </action>
+</item>
+
+<item label="File Manager">
+    <action name="Execute">
+	<execute>
+	    thunar
+        </execute>
+    </action>
+</item>
+
+<item label="Web Browser">
+    <action name="Execute">
+        <execute>
+            falkon
+        </execute>
+    </action>
+</item>
+
+<item label="Editor">
+    <action name="Execute">
+        <execute>
+            mousepad
+        </execute>
+    </action>
+</item>
+
+<separator />
+
+<item label="Reconfigure">
+   <action name="Execute">
+      <execute>
+          openbox --reconfigure
+      </execute>
+   </action>
+</item>
+
+<separator />
