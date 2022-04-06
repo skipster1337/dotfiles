@@ -9,7 +9,7 @@ On Openbox I use the [Openbox Applications Menu](https://github.com/Lestibournes
 
 # Fonts  
 Here are all the main fonts used in these configs:  
-- In my Fluent rice I use Cantarell for the UI,  MesloLGS NF for the terminal and ZSH, Open Sans i3bar and FontAwesome 6 for icons in i3bar (optional, uncomment lines in config and i3status to enable).
+- In my Fluent rice I use Cantarell for the UI,  MesloLGS NF for the terminal and ZSH, Open Sans in i3bar and FontAwesome 6 for icons in i3bar (optional, uncomment lines in config and i3status to enable).
 - For my Debian rice I use FreeSans for the UI, Lato Black for the titlebars, and Noto Mono for the terminal and monospace font.
 
 # Credits
