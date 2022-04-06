@@ -8,9 +8,9 @@ I also have configs for Debian to replicate the Openbox environment of Crunchban
 On Openbox I use the [Openbox Applications Menu](https://github.com/Lestibournes/Openbox-Applicatons-Menu) for my Openbox pipe menu because it's easy to install and configure.
 
 # Fonts  
-Here are all the main fonts used in these configs:
--Cantarell is used for the main part of the UI in my Fluent rice, MesloLGS NF is used for the terminal and ZSH, Noto Sans is used for i3bar.
--For my Debian rice I use FreeSans for the UI, Lato Black for the titlebars, and Noto Mono for the terminal and monospace font.
+Here are all the main fonts used in these configs:  
+- Cantarell is used for the main part of the UI in my Fluent rice, MesloLGS NF is used for the terminal and ZSH, Noto Sans is used for i3bar.
+- For my Debian rice I use FreeSans for the UI, Lato Black for the titlebars, and Noto Mono for the terminal and monospace font.
 
 # Credits
 - Conky configs are modified from [BunsenLabs](https://www.bunsenlabs.org/)
