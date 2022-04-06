@@ -1,12 +1,16 @@
 # Dotfiles
 Simple pack of dotfiles for my Linux desktop. Mostly made to work with i3 and Openbox, and themes such as [Fluent](https://github.com/vinceliuice/Fluent-gtk-theme) and Arc-Dark.
 Here you will find configs for i3 (and i3bar and i3status), openbox, tint2, conky, rofi, dunst and much more.
-You might need the Cantarell, FreeSans, Noto Mono and MesloLGS NF fonts for this to work properly.
 
 # Structure
 This repo contains configs of various stages of completion: the first batch is made for Arc-Dark, the second is for Fluent-Grey, and the third and current one is for Fluent-Red. I don't work as much on my older configs, solely because I don't use them.  
 I also have configs for Debian to replicate the Openbox environment of Crunchbang, made to work with Bunsen-Faenza icons and Bunsen-He theme.  
 On Openbox I use the [Openbox Applications Menu](https://github.com/Lestibournes/Openbox-Applicatons-Menu) for my Openbox pipe menu because it's easy to install and configure.
+
+# Fonts  
+Here are all the main fonts used in these configs:
+-Cantarell is used for the main part of the UI in my Fluent rice, MesloLGS NF is used for the terminal and ZSH, Noto Sans is used for i3bar.
+-For my Debian rice I use FreeSans for the UI, Lato Black for the titlebars, and Noto Mono for the terminal and monospace font.
 
 # Credits
 - Conky configs are modified from [BunsenLabs](https://www.bunsenlabs.org/)
