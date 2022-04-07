@@ -207,11 +207,11 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 set $bg-colour              #f44336
-set $inactive-bg-colour     #111111
+set $inactive-bg-colour     #202020
 set $text-colour            #ffffff
 set $inactive-text-colour   #888888
 set $urgent-bg-colour       #888888
-set $preview-colour         #222222
+set $preview-colour         #202020
 
 # Window colours
 client.focused                  $bg-colour          $bg-colour          $text-colour             $bg-colour
@@ -238,15 +238,15 @@ bar {
     position top
     height 24
   colors {
-    background #101010
+    background #202020
     statusline #FFFFFF
     separator  #f44336
 
-    focused_workspace  #101010 #101010 #FFFFFF
-    active_workspace   #101010 #101010 #FFFFFF
-    inactive_workspace #101010 #101010 #777777
-    urgent_workspace   #101010 #101010 #f44336
-    binding_mode       #101010 #101010 #f44336
+    focused_workspace  #202020 #202020 #FFFFFF
+    active_workspace   #202020 #202020 #FFFFFF
+    inactive_workspace #202020 #202020 #777777
+    urgent_workspace   #202020 #202020 #f44336
+    binding_mode       #202020 #202020 #f44336
   }
 }
 
