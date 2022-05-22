@@ -251,15 +251,11 @@ bar {
 }
 
 # make terminal windows always float
-for_window [class="bash: line 1: sensible: command not found
-Lxterminal" instance="lxterminal"] floating enable
-for_window [class="Terminator" instance="terminator"] floating enable
+# for_window [class="Terminator" instance="terminator"] floating enable
 # for_window [class="Terminator" instance="terminator"] resize set 800px 500px
-for_window [instance="xfce4-terminal"] floating enable
+# for_window [instance="xfce4-terminal"] floating enable
 for_window [class="Galculator" instance="galculator"] floating enable
 for_window [instance="nitrogen"] floating enable
-for_window [class="UXTerm"] floating enable
-for_window [class="UXTerm"] resize set 800px 500px
 
 # wallpaper
 exec --no-startup-id nitrogen --restore

@@ -24,7 +24,7 @@
       maximised = False
       fullscreen = False
       size = 792, 525
-      title = Terminator
+      title =
       last_active_term = 2189e9f7-fd91-447c-a218-a92fedd49176
       last_active_window = True
     [[[terminal1]]]
