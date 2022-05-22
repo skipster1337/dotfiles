@@ -93,19 +93,19 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Lato</name>
+      <name>FreeSans Semi-Bold</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Lato</name>
+      <name>FreeSans Semi-Bold</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
@@ -348,7 +348,7 @@
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
-        <command>terminator</command>
+        <command>xfce4-terminal</command>
       </action>
     </keybind>
     <keybind key="W-e">
@@ -358,7 +358,7 @@
     </keybind>
     <keybind key="W-h">
       <action name="Execute">
-       <command>terminator -x htop</command>
+        <command>xfce4-terminal -x htop</command>
       </action>
     </keybind>
     <keybind key="W-b">
@@ -837,5 +837,17 @@
       <decor>no</decor>
     </application>
     !-->
+    <application name="xfce4-terminal">
+            <position force="yes">
+                    <x>center</x>
+                    <y>center</y>
+            </position>
+    </application>
+    <application name="thunar">
+            <position force="yes">
+                    <x>center</x>
+                    <y>center</y>
+            </position>
+    </application>
   </applications>
 </openbox_config>
