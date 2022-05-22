@@ -1,0 +1,41 @@
+[global_config]
+  geometry_hinting = True
+  suppress_multiple_term_dialog = True
+  title_use_system_font = False
+  title_font = DejaVu Sans 9
+[keybindings]
+[profiles]
+  [[default]]
+    visible_bell = True
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    font = MesloLGS NF 9
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 10000
+    scrollback_infinite = True
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 261:138
+      maximised = False
+      fullscreen = False
+      size = 782, 542
+      title = 
+      last_active_term = 99b7b67c-a466-4feb-893d-52b162ec97d4
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 99b7b67c-a466-4feb-893d-52b162ec97d4
+[plugins]
