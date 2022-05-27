@@ -249,8 +249,8 @@ bar {
 }
 
 # make terminal windows always float
-# for_window [class="Terminator" instance="terminator"] floating enable
-# for_window [instance="xfce4-terminal"] floating enable
+for_window [class="Terminator" instance="terminator"] floating enable
+for_window [instance="xfce4-terminal"] floating enable
 for_window [class="Galculator" instance="galculator"] floating enable
 for_window [instance="nitrogen"] floating enable
 

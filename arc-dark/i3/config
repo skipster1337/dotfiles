@@ -237,8 +237,8 @@ bar {
 }
 
 # make terminal windows always float
-# for_window [class="Lxterminal" instance="lxterminal"] floating enable
-# for_window [class="Terminator" instance="terminator"] floating enable
+for_window [class="Lxterminal" instance="lxterminal"] floating enable
+for_window [class="Terminator" instance="terminator"] floating enable
 
 # wallpaper
 exec --no-startup-id nitrogen --restore
