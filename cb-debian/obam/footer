@@ -18,7 +18,7 @@
             Are you sure you want to reboot?
         </prompt>
         <execute>
-            systemctl restart
+            systemctl reboot
         </execute>
     </action>
 </item>
