@@ -3,13 +3,18 @@ Simple pack of dotfiles for my Linux desktop. Mostly made to work with i3 and Op
 Here you will find configs for i3 (and i3bar and i3status), openbox, tint2, conky, rofi, dunst and much more.
 
 # Structure
-This repo contains configs of various stages of completion: the first batch is made for Arc-Dark, the second is for Fluent-Grey, and the third and current one is for Fluent-Red. I don't work as much on my older configs, solely because I don't use them.  
-I also have configs for Debian to replicate the Openbox environment of Crunchbang, made to work with Bunsen-Faenza icons and the Bunsen-He theme.  
+This repo contains configs of various stages of completion: the first batch is made for Arc-Dark, the second is for Fluent-Grey, and the third and current one is for Fluent-Red. I don't work as much on my older configs, solely because I don't use them.
+
+**Update**: I have recently updated my fluent-grey config.
+
+I also have configs for Debian to replicate the Openbox environment of Crunchbang, made to work with [Bunsen-Faenza](https://github.com/BunsenLabs/bunsen-faenza-icon-theme) icons and the [Bunsen-He](https://github.com/BunsenLabs/bunsen-themes) theme.  
 On Openbox I use the [Openbox Applications Menu](https://github.com/Lestibournes/Openbox-Applicatons-Menu) for my pipe menu because it's easy to install and configure.
+
+As a little gimmick I use the [i3spotifystatus](https://github.com/rpieja/i3spotifystatus) script and slightly modified it.
 
 # Fonts  
 Here are all the main fonts used in these configs:  
-- In my Fluent rice I use Cantarell for the UI,  MesloLGS NF for the terminal and ZSH, Open Sans in i3bar and FontAwesome 6 for icons in i3bar (optional, uncomment lines in i3 config and i3status to enable).
+- In my Fluent rice I use Cantarell for the UI,  MesloLGS NF for the terminal and ZSH and FontAwesome 6 for icons in i3bar (optional, uncomment lines in i3 config and i3status to enable).
 - For my Debian rice I use FreeSans for the UI, Lato Black for the titlebars, and Noto Mono for the terminal and monospace font (all fonts available in stock Debian).
 
 # Credits
