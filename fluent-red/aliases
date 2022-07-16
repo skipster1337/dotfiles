@@ -1,0 +1,23 @@
+# skip's configs
+# epic aliases init m8
+
+# epic neofetch colors
+alias neofetch='neofetch --ascii_colors 9 9 --colors 9 7 15 9 9 15'
+
+# epic clock
+alias clock='tty-clock -s -c -C 7'
+
+# epic matrix
+alias matrix='unimatrix -a -c red -f -l k -s 90'
+
+# see size of pacman cache
+alias pkgcachesize='du -sh /var/cache/pacman/pkg'
+
+# clean the cache for uninstalled packages
+alias cleanpkgcache='sudo pacman -Sc'
+
+# clean the cache for all packages
+alias nukepkgcache='sudo pacman -Scc'
+
+# clear .cache directory
+alias clearcache='rm -r /home/skip/.cache'
