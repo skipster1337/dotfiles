@@ -85,8 +85,8 @@ button {
 }
 
 #element {
-    border:  					0;
-    padding: 					2px 2px 2px 2px ; 				
+    border:  					1;
+    padding: 					1px 1px 1px 1px ; 				
 }
 
 #element.normal.normal {
