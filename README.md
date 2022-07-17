@@ -15,6 +15,7 @@ As a little gimmick I use the [i3spotifystatus](https://github.com/rpieja/i3spot
 # Fonts  
 Here are all the main fonts used in these configs:  
 - In my Fluent rice I use Cantarell for the UI,  MesloLGS NF for the terminal and ZSH and FontAwesome 6 for icons in i3bar (optional, uncomment lines in i3 config and i3status to enable).
+- You will need to install ipa-fonts from the AUR if you want unimatrix to work.
 - For my Debian rice I use FreeSans for the UI, Lato Black for the titlebars, and Noto Mono for the terminal and monospace font (all fonts available in stock Debian).
 
 # Credits
