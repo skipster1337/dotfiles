@@ -119,17 +119,17 @@ button {
     text-color:       @selected-active-foreground;
 }
 
-#element.alternate.normal {
+/* #element.alternate.normal {
     background-color: @alternate-normal-background;
     text-color:       @alternate-normal-foreground;
-}
+} */
 
-#element.alternate.urgent {
+/* #element.alternate.urgent {
     background-color: @alternate-urgent-background;
     text-color:       @alternate-urgent-foreground;
-}
+} */
 
-#element.alternate.active {
+/* #element.alternate.active {
     background-color: @alternate-active-background;
     text-color:       @alternate-active-foreground;
-}
+} */
