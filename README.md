@@ -3,9 +3,8 @@ Simple pack of dotfiles for my Linux desktop. Mostly made to work with i3 and Op
 Here you will find configs for i3 (and i3bar and i3status), openbox, tint2, conky, rofi, dunst and much more.
 
 # Structure
-This repo contains configs of various stages of completion: the first batch is made for Arc-Dark, the second is for Fluent-Grey, and the third and current one is for Fluent-Red. I don't work as much on my older configs, solely because I don't use them.
-
-**Update**: I have recently updated my fluent-grey config.
+This repo contains configs of various stages of completion: the main one is for my Arch desktop with i3wm, for the Fluent theme, in red and grey variations. (also containing former color options for the Arc theme, should be fairly easy to set up).  
+On this setup I recommend using [oh-my-bash](https://ohmybash.nntoan.com/) or [powerlevel10k](https://github.com/romkatv/powerlevel10k) in combination with [zsh4humans](https://github.com/romkatv/zsh4humans) as the shell.
 
 I also have configs for Debian to replicate the Openbox environment of Crunchbang, made to work with [Bunsen-Faenza](https://github.com/BunsenLabs/bunsen-faenza-icon-theme) icons and the [Bunsen-He](https://github.com/BunsenLabs/bunsen-themes) theme.  
 On Openbox I use the [Openbox Applications Menu](https://github.com/Lestibournes/Openbox-Applicatons-Menu) for my pipe menu because it's easy to install and configure.
