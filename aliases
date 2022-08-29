@@ -1,4 +1,4 @@
-alias clock='tty-clock -s -c -C 7'
+alias clock='tty-clock -s -c -C 1'
 
 alias matrix='unimatrix -a -c red -f -l k -s 90'
 
