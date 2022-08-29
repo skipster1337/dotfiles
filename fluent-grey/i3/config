@@ -236,26 +236,27 @@ default_floating_border pixel 1
 # Gaps
 gaps inner 10
 gaps outer 0
+# smart_gaps on
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
     i3bar_command i3bar
     status_command i3status | ~/bin/i3spotifystatus/pystatus.py
-    font pango:Terminus,Font Awesome 6 Brands,Font Awesome 6 Free Bold 9
+    font pango:Terminus,Font Awesome 6 Brands,Font Awesome 6 Free Semibold 9
     strip_workspace_numbers yes
     position top
     height 22
   colors {
-    background #202020
+    background #101010 #202020
     statusline #FFFFFF
     separator  #aaaaaa
 
-    focused_workspace  #202020 #202020 #FFFFFF
-    active_workspace   #202020 #202020 #FFFFFF
-    inactive_workspace #202020 #202020 #777777
-    urgent_workspace   #202020 #202020 #ffffff
-    binding_mode       #202020 #202020 #ffffff
+    focused_workspace  #101010 #101010 #FFFFFF
+    active_workspace   #101010 #101010 #FFFFFF
+    inactive_workspace #101010 #101010 #777777
+    urgent_workspace   #101010 #101010 #ffffff
+    binding_mode       #101010 #101010 #ffffff
   }
 }
 
@@ -304,6 +305,10 @@ exec --no-startup-id setxkbmap -layout us,ro,ru -option grp:alt_caps_toggle
 # dont send screen to sleep
 exec --no-startup-id /home/skip/bin/nosleep.sh
 
+# lock screen if suspend or lid closed
+exec --no-startup-id light-locker --lock-on-suspend --lock-on-lid
+
 # fix screen tearing on nvidia cards
 # exec --no-startup-id nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
 
+#eof
