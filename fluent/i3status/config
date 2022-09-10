@@ -10,9 +10,11 @@ general {
         colors = true
         interval = 5
         output_format = "i3bar"
+       #arc colors:
        #color_good = "#b0d4ff"
        #color_degraded = "#63aaff"
        #color_bad = "#4084d6"
+       #normal colors:
 	color_good = "#ffffff"
         color_degraded = "#ffffff"
         color_bad = "#ffffff"
@@ -45,7 +47,7 @@ battery all {
 }
 
 disk "/" {
-        format = "%free / %total"
+        format = "%used / %total"
 }
 
 #load {
