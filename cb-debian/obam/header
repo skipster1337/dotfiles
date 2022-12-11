@@ -1,7 +1,7 @@
 <item label="Terminal">
     <action name="Execute">
         <execute>
-            terminator
+            xfce4-terminal
         </execute>
     </action>
 </item>
@@ -17,7 +17,7 @@
 <item label="Web Browser">
     <action name="Execute">
         <execute>
-            falkon
+            firefox-esr
         </execute>
     </action>
 </item>

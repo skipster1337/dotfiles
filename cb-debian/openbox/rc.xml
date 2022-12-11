@@ -838,16 +838,16 @@
     </application>
     !-->
     <application name="xfce4-terminal">
-            <position force="yes">
-                    <x>center</x>
-                    <y>center</y>
-            </position>
+      <position force="yes">
+        <x>center</x>
+        <y>center</y>
+      </position>
     </application>
     <application name="thunar">
-            <position force="yes">
-                    <x>center</x>
-                    <y>center</y>
-            </position>
+      <position force="yes">
+        <x>center</x>
+        <y>center</y>
+      </position>
     </application>
   </applications>
 </openbox_config>
